@@ -114,10 +114,10 @@ function createEnemy(){
 
 function update(){
     if( 39 in keysDown){    // 오른쪽움직임
-        fighterX += 5;
+        fighterX += 4;
     }
     if( 37 in keysDown){
-        fighterX -= 5;      // 왼쪽 움직임
+        fighterX -= 4;      // 왼쪽 움직임
     }
 
     if(fighterX <= 0){               //왼쪽벽막기
